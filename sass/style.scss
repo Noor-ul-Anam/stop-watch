@@ -1,0 +1,41 @@
+body{
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        #timer{         
+            position: relative;
+            width: 400px;
+            height: 250px;  
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            .btn{
+                border-radius: 5px;
+                color: blueviolet;
+                // color: #289728;
+                background-color: whitesmoke;
+                height: 30px;
+                width: 80px;
+                border: none;
+                position: absolute;
+                bottom: 10%;
+                font-weight: bolder;
+                cursor: pointer;
+            }
+            #start{
+                left: 13%;
+
+            }
+            #setTimer{
+                left: 42%;
+            }
+            #reset{
+                left: 70%;
+            }
+        }
+
+    }
+}
