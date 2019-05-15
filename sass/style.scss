@@ -1,10 +1,10 @@
 body{
-    .container{
+    .wrapper{
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 40px;
-        #timer{         
+        .container{         
             position: relative;
             width: 400px;
             height: 250px;  
@@ -21,19 +21,24 @@ body{
                 width: 80px;
                 border: none;
                 position: absolute;
-                bottom: 10%;
+                bottom: 15%;
                 font-weight: bolder;
                 cursor: pointer;
             }
             #start{
                 left: 13%;
-
             }
             #setTimer{
                 left: 42%;
             }
             #reset{
                 left: 70%;
+            }
+            #timer{
+                padding: 20px;
+                #time{
+                    font-size: 50px;
+                }
             }
         }
 

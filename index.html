@@ -9,13 +9,21 @@
     <title>stop watch</title>
 </head>
 <body >
-    <div class="container">
-        <div id="timer">
+    <div class="wrapper">
+        <div class="container">
             <button class="btn" id="start" onclick="transformBtn()">Start</button>
             <button class="btn" id="reset">Reset</button>
             <button class="btn" id="setTimer">Set timer</button>
+            <div id="timer">
+                <p id="time" >
+                    00:00:00
+                    <!-- <span class="timeSpan" id="hour">00</span><sub></sub>:<span class="timeSpan" id="minute">00</span>:<span class="timeSpan" id="second">00</span> -->
+                </p>
+            </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://rawgit.com/moment/moment/2.2.1/min/moment.min.js"></script>
     <script src="./js/js.js"></script>
 </body>
 </html>
